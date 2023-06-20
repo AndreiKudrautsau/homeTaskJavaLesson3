@@ -12,8 +12,8 @@ import java.util.Random;
 public class Task3 {
     public static void main (String[] args) {
         ArrayList<Integer> lst = new ArrayList<>();
-        for (int i = 0; i < 5; i++){
-            lst.add(new Random().nextInt(10));
+        for (int i = 0; i < 100; i++){
+            lst.add(new Random().nextInt(100));
         }
         System.out.println(lst.size());
         System.out.println(lst);
